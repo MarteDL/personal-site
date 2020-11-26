@@ -1,0 +1,45 @@
+#martefoto {
+    height: 20%;
+}
+
+iframe {
+    margin: 30px 0;
+}
+
+nav {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: darkblue !important;
+    font-weight: bold;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+h1 {
+    margin: 2rem 0;
+}
+
+.center {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+a {
+    color: darkblue;
+    font-weight: normal;
+}
+
+footer {
+    padding-top: 0 !important;
+}
+
+#freecodecamp {
+    float: right;
+    width: 40%;
+    padding: 0 0 1rem 2rem;
+}
