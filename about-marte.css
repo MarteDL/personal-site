@@ -61,8 +61,11 @@ nav a {
 }
 
 h1 {
-  margin: 0.5rem 0 2rem 0;
   color: #caa861;
+}
+
+#marte {
+  margin: 0.5rem 0 2rem 0;
 }
 
 iframe {
