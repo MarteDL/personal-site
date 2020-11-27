@@ -1,9 +1,10 @@
 body {
   background-color: #fbeec1;
+  color: #007b83;
 }
 
 div {
-  background-color: #fdf4d0;
+  background-color: #f6f6e9;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -28,7 +29,7 @@ nav {
 }
 
 nav a {
-  color: darkblue !important;
+  color: #caa861 !important;
   font-weight: bold;
 }
 
@@ -44,16 +45,24 @@ nav a {
 }
 
 #banner {
-  height: 300px;
-  background-image: url("banner.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+  background-image: url("banner1.png");
   background-size: cover;
-  padding: 2rem 0;
+  padding: 0;
 }
 
 #martefoto {
-  width: 150px;
-  border: 5px solid white;
-  vertical-align: bottom;
+  size: 10%;
+  border: 5px solid #f6f6e9;
+}
+
+h1 {
+  margin: 0.5rem 0 2rem 0;
+  color: #caa861;
 }
 
 iframe {
@@ -64,26 +73,26 @@ hr {
   margin: 2rem 0;
 }
 
-h1 {
-  margin: 2rem 0;
-}
-
 .center {
   text-align: center;
   margin: 1.5rem 0;
 }
 
 a {
-  color: darkblue;
+  color: #abada6;
   font-weight: normal;
 }
 
-footer {
-  padding-top: 0 !important;
+thead {
+  background-color: #0b5e64 !important;
 }
 
 #freecodecamp {
   float: right;
   width: 40%;
   padding: 0 0 1rem 2rem;
+}
+
+footer {
+  padding-top: 0 !important;
 }
